@@ -1,18 +1,18 @@
-const thetaRpc = "https://eth-rpc-api.thetatoken.org/rpc";
+const thetaRpc = "http://54.169.171.97:18888/rpc";
 
 const toAddress = "0x1d18c6fca6817175fff59763a36ac03ca9755165";
 
 const tokens = [
   {
-    name: "WETH.eth",
+    name: "WETH",
     address: "0x3674d64aab971ab974b2035667a4b3d09b5ec2b3",
-    startBlock: "14000000",
+    startBlock: "13000000",
     endBlock: "14559807"
   },
   {
-    name: "BNB.bsc",
+    name: "BNB",
     address: "0xdff772186ace9b5513fb46d7b05b36efa0a4a20d",
-    startBlock: "14530000",
+    startBlock: "13000000",
     endBlock: "14559807"
   }
 ];
